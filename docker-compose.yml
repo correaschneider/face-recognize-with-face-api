@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+    faceapi:
+        image: nginx:latest
+        volumes:
+            - ./:/usr/share/nginx/html
+        ports: 
+            - 80:80
+        
